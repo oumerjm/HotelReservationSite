@@ -16,7 +16,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== SHARED COMPONENTS ===== */
+
 /* Header & Navigation */
 header {
   background-color: var(--secondary);
@@ -117,11 +117,14 @@ footer a {
   color: var(--accent);
 }
 
-/* ===== ROOMS PAGE SPECIFIC ===== */
+/* ROOMS PAGE SPECIFIC  */
 .room-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
+}
+#pars {
+  color :#0b1b2c
 }
 
 .room-card {
